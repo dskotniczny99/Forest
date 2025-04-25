@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - Serce Natury w Miejskiej Dżungli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63becd61c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <div class="nav__left-side">
+                <a href="/" class="nav__logo-link" title="Strona główna">
+                    <i class="nav__logo-icon fa-solid fa-tree" aria-hidden="true"></i>
+                </a>
+                <p class="nav__name">Forest</p>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="nav__menu nav__menu--mobile">
+                <a href="index.html" class="nav__link" title="Przejdź do strony głównej">Home</a>
+                <a href="index.html#about-us" class="nav__link" title="Dowiedz się więcej o nas">O nas</a>
+                <a href="index.html#offers" class="nav__link" title="Sprawdź naszą ofertę">Oferta</a>
+                <a href="contact.html" class="nav__link" title="Skontaktuj się z nami">Kontakt</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="nav__menu nav__menu--desktop">
+                <a href="index.html" class="nav__link" title="Przejdź do strony głównej">Home</a>
+                <a href="index.html#about-us" class="nav__link" title="Dowiedz się więcej o nas">O nas</a>
+                <a href="index.html#offers" class="nav__link" title="Sprawdź naszą ofertę">Oferta</a>
+                <a href="#contact" class="nav__link" title="Skontaktuj się z nami">Kontakt</a>
+            </div>
+
+            <!-- Hamburger icon -->
+            <button class="nav__icon nav__icon--hamburger" aria-label="Otwórz menu">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <!-- Close icon -->
+            <button class="nav__icon nav__icon--close" aria-label="Zamknij menu">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="header header--offer">
+        <div class="header__hero-shadow"></div>
+        <div class="header__hero-text wrapper">
+            <p class="header__hero-title">Forest Group</p>
+            <h1 class="header__hero-subtitle">Oferta stworzona z myślą o Tobie i naturze</h1>
+        </div>
+        <div class="arrow-down"></div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section class="offers offers--detailed">
+
+            <h2 class="section-title">Pakiety i usługi</h2>
+            <p class="offers__subtitle">Dopasuj ofertę do swoich potrzeb — od okazjonalnych spacerów po lesie po
+                zaawansowaną eksplorację i profesjonalne wsparcie.</p>
+
+            <div class="offers__box-section wrapper">
+
+                <!-- Pakiet Demo -->
+                <article class="offer offer--demo">
+                    <div class="shadow"></div>
+
+                    <div class="offer__text">
+                        <h3 class="offer__title">Pakiet <strong>Demo</strong></h3>
+                        <p class="offer__price"><strong>$0</strong> / na zawsze</p>
+                        <p class="offer__description">
+                            Pakiet Demo to darmowa wersja dla osób, które chcą poznać podstawowe możliwości naszej
+                            aplikacji
+                            bez zobowiązań.
+                            Świetny wybór na początek przygody z eksploracją lasów.
+                        </p>
+                        <h4>Co zawiera:</h4>
+                        <ul class="offer__features">
+                            <li>✅ Dostęp do mapy lasów (online)</li>
+                            <li>✅ Podstawowe informacje o gatunkach drzew</li>
+                            <li>❌ Brak alertów o zagrożeniach (np. pożary, wichury)</li>
+                            <li>❌ Brak dostępu offline</li>
+                            <li>❌ Brak wsparcia eksperta leśnego</li>
+                        </ul>
+                        <p class="offer__note">Dla osób, które chcą jedynie sprawdzić, jak działa aplikacja bez
+                            inwestycji finansowej</p>
+                    </div>
+                </article>
+
+                <!-- Pakiet Standard -->
+                <article class="offer offer--standard">
+                    <div class="shadow"></div>
+
+                    <div class="offer__text">
+                        <h3 class="offer__title">Pakiet <strong>Standard</strong></h3>
+                        <p class="offer__price"><strong>$99</strong> / rok</p>
+                        <p class="offer__description">
+                            Dla aktywnych użytkowników, którzy często odwiedzają lasy i chcą mieć dostęp do
+                            dokładniejszych
+                            danych oraz alertów bezpieczeństwa.
+                        </p>
+                        <h4>Co zawiera:</h4>
+                        <ul class="offer__features">
+                            <li>✅ Interaktywna, aktualizowana na bieżąco mapa</li>
+                            <li>✅ Baza ponad 150 gatunków roślin i zwierząt</li>
+                            <li>✅ Powiadomienia o zagrożeniach: pożary, silny wiatr, powodzie</li>
+                            <li>❌ Brak pełnego trybu offline z GPS</li>
+                            <li>❌ Brak bezpośredniego kontaktu z leśnikiem</li>
+                        </ul>
+                        <p class="offer__note">Dla rodzin i miłośników natury, którym zależy na bezpieczeństwie i
+                            rzetelnej
+                            informacji.</p>
+                    </div>
+                </article>
+
+                <!-- Pakiet Premium -->
+                <article class="offer offer--premium">
+                    <div class="shadow"></div>
+
+                    <div class="offer__text">
+                        <h3 class="offer__title">Pakiet <strong>Premium</strong></h3>
+                        <p class="offer__price"><strong>$299</strong> / rok</p>
+                        <p class="offer__description">
+                            Najbardziej zaawansowany pakiet, stworzony dla profesjonalistów, pasjonatów przyrody i osób
+                            pracujących w terenie.
+                            Zawiera pełne wsparcie techniczne i eksperckie oraz najnowsze technologie satelitarne.
+                        </p>
+                        <h4>Co zawiera:</h4>
+                        <ul class="offer__features">
+                            <li>✅ Dostęp do danych satelitarnych i analiz zmian środowiskowych</li>
+                            <li>✅ Rozpoznawanie gatunków roślin i zwierząt ze zdjęć</li>
+                            <li>✅ Nawigacja offline z GPS, nawet bez zasięgu</li>
+                            <li>✅ Sezonowe alerty przyrodnicze (kwitnienia, migracje, zagrożenia)</li>
+                            <li>✅ Konsultacje z leśnikami i ekspertami środowiskowymi online</li>
+                        </ul>
+                        <p class="offer__note">Idealny dla osób, które potrzebują zaawansowanego wsparcia i technologii
+                            w
+                            terenie.</p>
+                </article>
+            </div>
+
+            <div class="offers__cta">
+                <p class="offers__cta-text">Masz pytania lub chcesz dobrać idealny pakiet dla siebie?</p>
+                <a href="contact.html" class="offers__cta-button">Skontaktuj się z nami</a>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__inner">
+                <div class="footer__left-side">
+                    <a href="#" class="footer__logo">
+                        <i class="fa-solid fa-tree footer__logo-icon"></i>
+                    </a>
+                    <p class="footer__nav-name">Forest</p>
+
+                </div>
+
+                <div class="footer__right-side footer__columns">
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">O nas</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Historia</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Parki</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Opinie</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">Nasza firma</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Praca</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Kadry</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Zarząd</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">Dokumenty</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Wnioski</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Rezerwacje</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Line Separator -->
+        <div class="line"></div>
+
+        <!-- Copyright Text -->
+        <p class="footer__text">&copy; <span class="current__year"></span> Forest Group Company Ltd.</p>
+    </footer>
+
+
+    <script src="/dist/js/main.min.js"></script>
+</body>
+
+</html>

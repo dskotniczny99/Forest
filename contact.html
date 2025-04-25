@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - Serce Natury w Miejskiej Dżungli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63becd61c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <div class="nav__left-side">
+                <a href="/" class="nav__logo-link" title="Strona główna" aria-label="Forest - strona główna">
+                    <i class="nav__logo-icon fa-solid fa-tree" aria-hidden="true"></i>
+                </a>
+                <p class="nav__name">Forest</p>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="nav__menu nav__menu--mobile">
+                <a href="index.html" class="nav__link" title="Przejdź do strony głównej">Home</a>
+                <a href="index.html#about-us" class="nav__link" title="Dowiedz się więcej o nas">O nas</a>
+                <a href="index.html#offers" class="nav__link" title="Sprawdź naszą ofertę">Oferta</a>
+                <a href="contact.html" class="nav__link" title="Skontaktuj się z nami">Kontakt</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="nav__menu nav__menu--desktop">
+                <a href="index.html" class="nav__link" title="Przejdź do strony głównej">Home</a>
+                <a href="index.html#about-us" class="nav__link" title="Dowiedz się więcej o nas">O nas</a>
+                <a href="index.html#offers" class="nav__link" title="Sprawdź naszą ofertę">Oferta</a>
+                <a href="contact.html" class="nav__link" title="Skontaktuj się z nami">Kontakt</a>
+            </div>
+
+            <!-- Hamburger icon -->
+            <button class="nav__icon nav__icon--hamburger" aria-label="Otwórz menu">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <!-- Close icon -->
+            <button class="nav__icon nav__icon--close" aria-label="Zamknij menu">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="header header--contact">
+        <div class="header__hero-shadow"></div>
+        <div class="header__hero-text wrapper">
+            <p class="header__hero-title">Skontaktuj się z nami</p>
+            <h1 class="header__hero-subtitle">Jesteśmy tu, by odpowiedzieć na Twoje pytania</h1>
+        </div>
+        <div class="arrow-down"></div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <section class="contact">
+            <div class="contact__container">
+                <h2 class="contact__title">Skontaktuj się z nami</h2>
+                <form class="contact__form">
+                    <div class="contact__form-group">
+                        <label for="name" class="contact__label">Imię i nazwisko</label>
+                        <input type="text" id="name" class="contact__input" placeholder="Wpisz swoje imię" required>
+                    </div>
+
+                    <div class="contact__form-group">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" id="email" class="contact__input" placeholder="Wpisz swój email" required>
+                    </div>
+
+                    <div class="contact__form-group">
+                        <label for="message" class="contact__label">Wiadomość</label>
+                        <textarea id="message" class="contact__textarea" placeholder="Wpisz swoją wiadomość"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__button">Wyślij</button>
+                </form>
+            </div>
+        </section>
+        <section class="map">
+            <h2 class="map__title">Znajdź naszą firmę Forest Group</h2>
+            <iframe
+                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Jasnog%C3%B3rska%202,%2031-358%20Krak%C3%B3w+(Restauracja%20McDonald's)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__inner">
+                <div class="footer__left-side">
+                    <a href="#" class="footer__logo">
+                        <i class="fa-solid fa-tree footer__logo-icon"></i>
+                    </a>
+                    <p class="footer__nav-name">Forest</p>
+
+                </div>
+
+                <div class="footer__right-side footer__columns">
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">O nas</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Historia</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Parki</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Opinie</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">Nasza firma</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Praca</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Kadry</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Zarząd</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">Dokumenty</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Wnioski</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Rezerwacje</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Line Separator -->
+        <div class="line"></div>
+
+        <!-- Copyright Text -->
+        <p class="footer__text">&copy; <span class="current__year"></span> Forest Group Company Ltd.</p>
+    </footer>
+
+
+    <script src="/dist/js/main.min.js"></script>
+</body>
+
+</html>
