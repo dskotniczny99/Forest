@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - Serce Natury w Miejskiej Dżungli</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=123">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63becd61c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+
+
+    <nav class="nav">
+        <!-- Wrapper -->
+        <div class="wrapper">
+            <div class="nav__left-side">
+                <a href="/index.html" class="nav__logo-link" title="Strona główna">
+                    <i class="nav__logo-icon fa-solid fa-tree" aria-hidden="true"></i>
+                </a>
+                <p class="nav__name">Forest</p>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="nav__menu nav__menu--mobile">
+                <a href="#" class="nav__link" title="Przejdź do strony głównej">Home</a>
+                <a href="#about-us" class="nav__link" title="Dowiedz się więcej o nas">O nas</a>
+                <a href="#offers" class="nav__link" title="Sprawdź naszą ofertę">Oferta</a>
+                <a href="/contact.html" class="nav__link" title="Skontaktuj się z nami">Kontakt</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="nav__menu nav__menu--desktop">
+                <a href="#" class="nav__link" title="Przejdź do strony głównej">Home</a>
+                <a href="#about-us" class="nav__link" title="Dowiedz się więcej o nas">O nas</a>
+                <a href="#offers" class="nav__link" title="Sprawdź naszą ofertę">Oferta</a>
+                <a href="/contact.html" class="nav__link" title="Skontaktuj się z nami">Kontakt</a>
+            </div>
+
+            <!-- Hamburger icon -->
+            <button class="nav__icon nav__icon--hamburger" aria-label="Otwórz menu">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <!-- Close icon -->
+            <button class="nav__icon nav__icon--close" aria-label="Zamknij menu">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="header__hero-shadow"></div>
+        <div class="header__hero-text wrapper">
+            <p class="header__hero-title">Forest Group</p>
+            <h1 class="header__hero-subtitle">Najpiękniejszy park w Twojej okolicy!</h1>
+        </div>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+        <section id="about-us" class="about-us">
+            <div class="about-us__wrapper wrapper">
+                <h2 class="about-us__title section-title">o nas</h2>
+
+                <div class="about-us__box">
+                    <img src="./dist/img/aboutus-img-small.jpg" alt="" class="about-us__img" />
+
+                    <div class="about-us__text-box">
+                        <h3 class="about-us__subtitle">Niezapomniane przygody</h3>
+                        <p class="about-us__text">
+                            Poznaj naszą misję — tworzymy niezapomniane przygody na łonie natury. Oferujemy malownicze
+                            wędrówki, emocjonujące wyprawy oraz podróże, które pozostają w pamięci na całe życie. Nasz
+                            park to idealne miejsce dla miłośników aktywnego wypoczynku, rodzinnych spacerów i
+                            eksplorowania dzikiej przyrody.
+                            Każda wyprawa z Forest Group to nie tylko zwiedzanie, ale też wyjątkowe chwile, wspólne
+                            ogniska pod gwiazdami, poranne trekkingi i emocje, które łączą ludzi. Wierzymy, że prawdziwa
+                            magia podróżowania tkwi w relacjach, odkrywaniu nowych miejsc i przeżywaniu każdej przygody
+                            z pasją.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="adventure">
+            <div class="adventure__hero-text">
+                <button class="adventure__btn">Przygoda dla całej rodziny</button>
+            </div>
+            <div class="adventure__hero-shadow"></div>
+        </section>
+
+
+        <section id="offers" class="offers">
+            <div class="offers__wrapper">
+                <h2 class="offers__title section-title">oferta</h2>
+                <p class="offers__subtitle">Wybierz jedną z naszych wspaniałych ofert</p>
+            </div>
+
+            <div class="offers__box">
+                <!-- DEMO -->
+                <div class="offers__card offers__card--demo">
+                    <p class="offers__card-title">Demo</p>
+                    <p class="offers__card-price"><span class="offers__currency">$</span>0</p>
+                    <div class="offers__options">
+                        <p><i class="fa-solid fa-check"></i>Podgląd mapy lasów</p>
+                        <p><i class="fa-solid fa-check"></i>Podstawowe dane o gatunkach drzew</p>
+                        <p class="offers__option--inactive"><i class="fa-solid fa-minus"></i>Alerty o zagrożeniach w
+                            lesie</p>
+                        <p class="offers__option--inactive"><i class="fa-solid fa-minus"></i>Tryb offline podczas
+                            wędrówek</p>
+                        <p class="offers__option--inactive"><i class="fa-solid fa-minus"></i>Wsparcie eksperta leśnego
+                        </p>
+                    </div>
+                    <button class="offers__button">Wybierz</button>
+                </div>
+
+                <!-- STANDARD -->
+                <div class="offers__card offers__card--standard">
+                    <p class="offers__card-title">Standard</p>
+                    <p class="offers__card-price"><span class="offers__currency">$</span>99</p>
+                    <div class="offers__options">
+                        <p><i class="fa-solid fa-check"></i>Dostęp do interaktywnej mapy</p>
+                        <p><i class="fa-solid fa-check"></i>Baza 150+ gatunków roślin i zwierząt</p>
+                        <p><i class="fa-solid fa-check"></i>Powiadomienia o pożarach i wycinkach</p>
+                        <p class="offers__option--inactive"><i class="fa-solid fa-minus"></i>Tryb offline z GPS</p>
+                        <p class="offers__option--inactive"><i class="fa-solid fa-minus"></i>Konsultacje z leśnikiem</p>
+                    </div>
+                    <button class="offers__button">Wybierz</button>
+                </div>
+
+                <!-- PREMIUM -->
+                <div class="offers__card offers__card--premium">
+                    <p class="offers__card-title">Premium</p>
+                    <p class="offers__card-price"><span class="offers__currency">$</span>299</p>
+                    <div class="offers__options">
+                        <p><i class="fa-solid fa-check"></i>Pełne dane satelitarne i mapy lasów</p>
+                        <p><i class="fa-solid fa-check"></i>Rozpoznawanie gatunków przez zdjęcia</p>
+                        <p><i class="fa-solid fa-check"></i>Tryb offline z trasami GPS</p>
+                        <p><i class="fa-solid fa-check"></i>Alerty sezonowe (np. rykowisko, grzyby)</p>
+                        <p><i class="fa-solid fa-check"></i>Konsultacje z ekspertem online</p>
+                    </div>
+                    <button class="offers__button">Wybierz</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="offer-hero">
+            <div class="shadow"></div>
+            <div class="offer-hero__content">
+                <p class="offer-hero__description">
+                    Sprawdź, co możemy dla Ciebie zrobić – kompleksowe usługi dopasowane do Twoich potrzeb.
+                </p>
+                <a href="oferta.html" class="offer-hero__link">Zobacz więcej</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__inner">
+                <div class="footer__left-side">
+                    <a href="#" class="footer__logo">
+                        <i class="fa-solid fa-tree footer__logo-icon"></i>
+                    </a>
+                    <p class="footer__nav-name">Forest</p>
+
+                </div>
+
+                <div class="footer__right-side footer__columns">
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">O nas</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Historia</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Parki</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Opinie</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">Nasza firma</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Praca</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Kadry</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Zarząd</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__column-title">Dokumenty</h3>
+                        <ul class="footer__column-list">
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Wnioski</a></li>
+                            <li class="footer__column-item"><a href="#" class="footer__column-link">Rezerwacje</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Line Separator -->
+        <div class="line"></div>
+
+        <!-- Copyright Text -->
+        <p class="footer__text">&copy; <span class="current__year"></span> Forest Group Company Ltd.</p>
+    </footer>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
